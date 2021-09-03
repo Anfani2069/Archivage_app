@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+    <title>Gestion-Archivage</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/logo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/form-validation.css" rel="stylesheet">
+    <!-- Normalize Style -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <!-- Line Icons CSS -->
+    <link rel="stylesheet" href="assets/fonts/line-icons/line-icons.css" type="text/css">
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <!-- Color Switcher -->
+    <link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/extras/animate.css" type="text/css">
+    <!-- Rev Slider Css -->
+    <link rel="stylesheet" href="assets/extras/settings.css" type="text/css">
+    <!-- Nivo Lightbox Css -->
+    <link rel="stylesheet" href="assets/extras/nivo-lightbox.css" type="text/css">
+    <!-- Slicknav Css -->
+    <link rel="stylesheet" href="assets/css/slicknav.css" type="text/css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors/sky.css" media="screen" />
+    <!-- Bootstrap Select -->
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        
+     <div class="col-md-8">
+            <h4 class="md-3">Insertion d'un membre</h4>
+            <form class="formulaire">
+        <div class="row">
+          
+        <div class="col-md-6">
+        <label for="nom">Nom</label>
+        <input type="text" class="form-control"  placeholder="" value="" required>  
+        </div>
+        <div class="col-md-6">
+         <label for="prenom">Prenom</label>
+         <input type="text" class="form-control" placeholder="" value="" required>
+        </div>
+        </div>
+
+                <div class="row">
+                <div class="col-md-6">
+                <label for="nom">Date de naissance</label>
+                <input type="date" class="form-control"  placeholder="" value="" required>  
+                </div>
+                <div class="col-md-6">
+                <label for="prenom">Lieu de naissance</label>
+                <input type="text" class="form-control" placeholder="" value="" required>
+                </div>
+                </div>
+                        
+                        <div class="row">
+                        <div class="col-md-6">
+                        <label for="nom">Residence</label>
+                        <input type="text" class="form-control"  placeholder="" value="" required>  
+                        </div>
+                        <div class="col-md-6">
+                         <label for="ile">Ile</label>
+                         <select class="form-control" required>
+                            <option value="">Choisir</option>
+                            <option>Ngazidja</option>
+                            <option>Ndzouani</option>
+                            <option>Mwali</option>
+                         </select>
+                        </div>
+                        </div>
+                                                
+                        <div class="md-3">
+                         <label for="address">Proffession </label>
+                         <input type="text" class="form-control"  placeholder="Agent de saisi" required>  
+                        </div>
+
+                         <div class="row">
+                             <div class="col-md-6">
+                              <label for="fnt">Lieu d'exercice</label>
+                              <input type="tel" class="form-control"  placeholder="" value="" required> 
+                          </div>
+                         <div class="col-md-6">
+                           <label for="periex">Periode d'exercice</label>
+                           <input type="text" class="form-control" placeholder="" value="" required>
+                          </div>
+                          </div>
+
+                          <div class="row">
+                          <div class="col-md-6">
+                           <label for="fnt">Telephone 1</label>
+                           <input type="tel" class="form-control"  placeholder="" value="" required>  
+                          </div>
+
+                          <div class="col-md-6">
+                           <label for="periex">Telephone 2</label>
+                           <input type="tel" class="form-control" placeholder="" value="" required>                   
+                          </div>
+                          </div>
+
+
+                          <div class="md-3">
+                          <label for="email">Email <span class="text-muted">(Valide)</span></label>
+                          <input type="email" class="form-control" id="email" placeholder="you@example.com"> 
+                         </div>
+
+
+                     <div class="row">
+
+                            <div class="col-md-6">
+                              <label for="fnt">Fonction à la Ceni</label>
+                              <input type="text" class="form-control"  placeholder="" value="" required>  
+                           </div>
+                         <div class="col-md-6">
+                          <label for="periex">Description</label>
+                          <textarea class="form-control" rows="3" placeholder="" value="" required></textarea>
+                         </div>
+                     </div>
+
+                 <button type="submit" class="btn btn-primary">Ajouter</button>
+                 <button type="reset" class="btn btn-danger">Vider</button>
+                 <button type="" class="btn btn-default">Fermer</button>
+            </form>
+        </div>
+        <div class="col-md-4">
+            
+             <form class="file">
+                 <div class="custom-file">
+                     <input type="file" class="custom-file-input"  placeholder="" required>
+                     <label class="custom-file-label" for="file">Choisir le fichier...</label>
+                 </div>
+             </form>
+         </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- jQuery  -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/color-switcher.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+    <script type="text/javascript" src="assets/js/wow.js"></script>
+    <script type="text/javascript" src="assets/js/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="assets/js/form-validator.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+
+
+</body>
+</html>
